@@ -1,0 +1,18 @@
+.CollapseContainer {
+  padding: 5px;
+  border-style: hidden ridge ridge ridge;
+}
+.DroppableContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* Dialog */
+.DialogContainer {
+  overflow-x: hidden;
+}
+.DialogCloseButton {
+  float: right;
+  height: fit-content;
+}

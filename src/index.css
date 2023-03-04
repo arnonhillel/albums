@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 0 !important;
+}
+
+.dir-name:hover {
+  cursor: pointer;
+}

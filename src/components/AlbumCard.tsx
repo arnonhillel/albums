@@ -100,7 +100,7 @@ const AlbumCard: React.FC<Props> = ({ data }) => {
         )}
         <List component="div" disablePadding>
           <DragDropContext onDragEnd={onDragEnd}>
-            <Droppable droppableId="droppable">
+            <Droppable droppableId="droppable" direction="horizontal">
               {(provided) => (
                 <div
                   {...provided.droppableProps}
